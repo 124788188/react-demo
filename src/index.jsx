@@ -6,6 +6,7 @@ import { Router } from './routes/index'
 import { AliveScope } from 'react-activation'
 import store from './store'
 import 'antd/dist/antd.less'
+
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter >

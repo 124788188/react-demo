@@ -6,7 +6,7 @@ export const addNum = payload => {
 }
 
 export const getMessage = payload => {
-    return (dispatch) => {
+    return dispatch => {
         setTimeout(() => {
             dispatch({
                 type: 'testUseRedux::getMessage',

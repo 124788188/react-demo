@@ -19,6 +19,11 @@ const routes = [
         name: '测试使用Redux',
         auth: ['1'],
         component: lazy(() => import('../page/TestUseRedux'))
+      },{
+        path: '/someTests',
+        name: '一些前端试题',
+        auth: ['1'],
+        component: lazy(() => import('../page/SomeTests'))
       }
     ]
   }, {
